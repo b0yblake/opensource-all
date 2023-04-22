@@ -1,0 +1,11 @@
+var React = require('react');
+
+function SprayInline (props) {
+    return React.createElement("svg",props,[React.createElement("path",{"fill":"#FFF","d":"M18.396.005v6.42h1.054c.304 0 .593.132.793.365l7.377 8.56c.07.082.127.174.17.274.005.011.007.023.01.034l.008.028c.034.12.059.243.073.367V52.43c0 .284-.111.556-.309.757-.197.2-.465.313-.745.313H1.535c-.28 0-.548-.112-.746-.313a1.08 1.08 0 01-.308-.757V16.053c.013-.135.04-.27.08-.4.005-.013.012-.025.019-.036l.016-.028c.026-.062.058-.121.096-.177l6.323-8.56c.199-.269.511-.428.843-.428h2.108v-2.14H7.857v-2.14h2.108V.005h8.43z","key":0}),React.createElement("path",{"fill":"#000","d":"M2.589 44.941h23.184V17.123H2.589zM25.773 51.361H2.589v-4.28h23.184zM8.434 8.564l-4.791 6.419H24.72l-5.59-6.419zM16.288 2.145v4.279h-4.215V2.145z","key":1})]);
+}
+
+SprayInline.defaultProps = {"width":"28","height":"54","fillRule":"evenodd"};
+
+module.exports = SprayInline;
+
+SprayInline.default = SprayInline;
